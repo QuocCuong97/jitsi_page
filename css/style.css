@@ -4573,11 +4573,12 @@ ul.content-list li:last-child {
 }
 
 .pricing-table span.price {
-  font-size: 75px;
+  font-size: 35px;
   line-height: 1;
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   letter-spacing: 0.5px;
+  color: #e35029;
 }
 
 .pricing-table sup {
