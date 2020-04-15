@@ -2136,7 +2136,7 @@ span.section-id {
 }
 
 #hero-13-txt {  
-  background-image: url(../images/headers_2.jpg);
+  background-image: url(../images/headers_9.jpg);
   padding-top: 230px;
   padding-bottom: 100px;
 }
@@ -4352,7 +4352,7 @@ ul.content-list li:last-child {
 }
 
 .statistic-section.bg-image {
-  background-image: url(../images/statistic.jpg);
+  background-image: url(../images/headers_2.jpg);
 }
 
 /*------------------------------------------*/
@@ -4431,7 +4431,7 @@ ul.content-list li:last-child {
 
 #pricing-2-title.bg-deepgreen,
 #pricing-2-title.bg-purple {
-  background-image: url(../images/headers_2.jpg);
+  background-image: url(../images/headers_9.jpg);
 } 
 
 #pricing-2-content {
@@ -4520,7 +4520,7 @@ ul.content-list li:last-child {
   text-align: center;
   background-color: #fff;
   border: 1px solid #d0d0d0;
-  padding: 60px 50px;
+  padding: 60px 30px;
   margin-bottom: 40px;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
@@ -4553,7 +4553,7 @@ ul.content-list li:last-child {
 /*------------------------------------------*/
 
 .pricing-plan {
-  padding-bottom: 20px;
+  padding-bottom: 0px;
   border-bottom: 1px solid #d0d0d0;
 }
 
@@ -4662,11 +4662,11 @@ p.validity {
 /*------------------------------------------*/
 
 .pricing-table ul.features {
-  padding: 30px 0 35px;
+  padding: 30px 0 20px;
 }
 
 .pricing-table ul.features li {
-  font-size: 1.05rem;
+  font-size: 0.9rem;
   line-height: 1;
   font-weight: 400;
   padding: 11px 0;
@@ -4730,7 +4730,7 @@ p.validity {
 }
 
 .reviews-section.bg-image {
-  background-image: url(../images/reviews.jpg);
+  background-image: url(../images/headers_9.jpg);
 }
 
 /*------------------------------------------*/
@@ -4836,7 +4836,7 @@ p.validity {
 #reviews-2 .review-txt p {
   font-size: 1.85rem;
   line-height: 1.3;
-  font-weight: 500;
+  font-weight: 300;
   padding: 20px 8% 35px;
 }
 
@@ -5630,7 +5630,7 @@ a.share-ico:hover {
   =========================================================================== */
 
 .newsletter-section.bg-image {
-  background-image: url(../images/newsletter.jpg);
+  background-image: url(../images/headers_9.jpg);
 }
 
 .newsletter-section.bg-purple,
