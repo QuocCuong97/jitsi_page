@@ -85,19 +85,57 @@
 					</div>	  <!-- End container -->
         </nav>	   <!-- End navbar -->
         <div class="modal fade" id="callModal">
-          <div class="modal-dialog">
+          <div class="modal-dialog modal-sm">
             <div class="modal-content">
-              <div class="modal-body">
-                <p>Tính năng đang xây dựng</p>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+              <div class="modal-body" style="background-color: #dadae3;">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="text-success"><img src="https://nhanhoa.com/templates/images/calendar.png" width="10%"> Xin chào,</h4>
+                <p class="text-primary font-weight-bold" style="font-size: 80%;">Vui lòng nhập thông tin để chúng tôi có thể liên hệ lại với bạn</p>
+                <form>
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Số điện thoại liên hệ" pattern="[0-9]{10}" id="email">
+                  </div>
+                  <div class="form-group">
+                    <textarea type="text" rows="3" class="form-control" placeholder="Nội dung thắc mắc?" id="pwd"></textarea>
+                  </div>
+                  <div class="form-group text-center">
+                    <div class="custom-control custom-radio custom-control-inline">
+                      <input type="radio" class="custom-control-input" id="customRadio" name="example" checked value="customEx">
+                      <label class="custom-control-label" for="customRadio"><strong class="text-primary">HN</strong></label>
+                    </div>
+                    <div class="custom-control custom-radio custom-control-inline">
+                      <input type="radio" class="custom-control-input" id="customRadio2" name="example" value="customEx">
+                      <label class="custom-control-label" for="customRadio2"><strong class="text-primary">HCM</strong></label>
+                    </div>
+                  
+                  </div>
+                  <div>
+                    <button type="submit" class="btn btn-block text-white" style="background-color: #d69200;">Gửi đi</button>
+                    <p class="my-3 text-center">Gọi hotline <strong class="txt-600 text-danger">0915 57 67 55</strong> (24/7)</p>
+                  </p>
+                </form>
               </div>
             </div>
           </div>
         </div>
 			</header>	<!-- END HEADER -->
-      
+      <script id="vf_681857458" async="" src="https://tongdai.vfone.vn/public/js/vfone-call.js"></script>
+      <link id="vf_681778452" rel="stylesheet" href="https://tongdai.vfone.vn/public/css/vfone-call.css">
+      <div id="vfone_call">
+        <div class="vf-btn-wrap">
+          <div class="vf-btn-call">
+            <div class="vf-btn-text">Gọi miễn phí</a></div>
+            <div class="vf-btn-text-one" onclick="myCall()">
+              Gọi miễn phí
+            </div>
+          </div>
+        </div>
+      </div>
+      <script>
+        function myCall() {
+          window.open("https://tongdai.vfone.vn/callnew.php", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=200,left=580,width=300,height=400");
+        }
+      </script>
 			<!-- HERO-13
 			============================================= -->	
 			<section id="hero-13" class="hero-section">
@@ -138,7 +176,7 @@
 
 			<!-- SERVICES-3
 			============================================= -->
-			<section id="services-3" class="bg-lightgrey wide-50 services-section division">
+			<section id="services-3" class="bg-lightgrey wide-50 services-section division mt-0">
 				<div class="container">
 					<!-- SECTION TITLE 	-->	
 					<div class="row">	
@@ -158,8 +196,8 @@
 								<span class="flaticon-idea"></span>
 								<div class="sbox-3-txt">
 									<h5 class="h5-md">Ngôn ngữ Tiếng Việt <img src="../images/vn_flag.png" width=8%></h5>
-									<p class="grey-color">Semper lacus cursus porta, feugiat primis in ultrice ligula risus tempus
-									   auctor cubilia congue ipsum ipsum mauris lectus laoreet
+									<p class="grey-color">Ngôn ngữ mặc định của <strong>Jitsi</strong> là Tiếng Anh, tuy nhiên chúng tôi 
+										đã cải tiến thêm cho nó giao diện tiếng Việt, giúp thân thiện hơn với người sử dụng .
 									</p>
 								</div>	
 							</div>							
@@ -170,8 +208,8 @@
 								<span class="flaticon-share-2"></span>
 								<div class="sbox-3-txt">
 									<h5 class="h5-md">Chủ trì phòng họp</h5>
-									<p class="grey-color">Semper lacus cursus porta, feugiat primis in ultrice ligula risus tempus
-									   auctor cubilia congue ipsum ipsum mauris lectus laoreet
+									<p class="grey-color">Tính năng cho phép chỉ ra một người đứng đầu phòng họp, có tất cả các quyền như 
+										xóa các user khác hay phân quyền cho họ
 									</p>
 								</div>	
 							</div>							
@@ -182,8 +220,8 @@
 								<span class="flaticon-fingerprint"></span>
 								<div class="sbox-3-txt">
 									<h5 class="h5-md">Ghi hình cuộc họp</h5>
-									<p class="grey-color">Semper lacus cursus porta, feugiat primis in ultrice ligula risus tempus
-									   auctor cubilia congue ipsum ipsum mauris lectus laoreet
+									<p class="grey-color">Đây là tính năng vô cùng đáng giá vì một buổi họp hay một cuộc gọi đều đáng để ghi lại 
+										để có thể xem lại các sự kiện quan trọng khi cần thiết
 									</p>
 								</div>	
 							</div>							
@@ -196,8 +234,8 @@
 								<!-- Text -->
 								<div class="sbox-3-txt">
 									<h5 class="h5-md">Chia sẻ màn hình</h5>
-									<p class="grey-color">Semper lacus cursus porta, feugiat primis in ultrice ligula risus tempus
-									   auctor cubilia congue ipsum ipsum mauris lectus laoreet
+									<p class="grey-color">Tính năng cho phép một người chia sẻ màn hình hiện tại cho người khác xem. Chức 
+										năng này rất hữu ích khi muốn trình chiếu slide cho cả nhóm .
 									</p>
 								</div>	
 							</div>							
@@ -210,8 +248,8 @@
 								<!-- Text -->
 								<div class="sbox-3-txt">
 									<h5 class="h5-md">Tùy biến logo và giao diện</h5>
-									<p class="grey-color">Semper lacus cursus porta, feugiat primis in ultrice ligula risus tempus
-									   auctor cubilia congue ipsum ipsum mauris lectus laoreet
+									<p class="grey-color">Một chức năng dành cho nhưng ai thích cá nhân hóa "phòng họp" của mình, 
+										không muốn sử dụng giao diện mặc định của <strong>Jitsi</strong>.
 									</p>
 								</div>	
 							</div>							
@@ -224,8 +262,8 @@
 								<!-- Text -->
 								<div class="sbox-3-txt">
 									<h5 class="h5-md">Xác thực với LDAP, WordPress</h5>
-									<p class="grey-color">Semper lacus cursus porta, feugiat primis in ultrice ligula risus tempus
-									   auctor cubilia congue ipsum ipsum mauris lectus laoreet
+									<p class="grey-color">Tính năng nâng cao cho phép chỉ người dùng có tài khoản trong công ty mới được 
+										tham gia cuộc họp, tăng tính bảo mật cho cuộc họp .
 									</p>
 								</div>	
 							</div>							
@@ -259,8 +297,8 @@
                    của mình các sản phẩm hữu ích, hỗ trợ đa nền tảng, đa người dùng. Khách hàng có thể tìm kiếm được 
                    nhiều dịch vụ như thuê tên miền, thuê VPS,... từ chúng tôi mà không cần tìm thêm nhà cung cấp khác .
                 </p>
-                <h3 class="h3-xl txt-600 animated" data-animation="fadeInUp" data-animation-delay="400">
-                  Hỗ trợ 24/7
+                <h3 class="h3-xl txt-600 animated mt-5" data-animation="fadeInUp" data-animation-delay="400">
+                  Hỗ trợ 24/7 <i class="fas fa-life-ring"></i>
                </h3>
 								<!-- Text -->
 								<p class="animated" data-animation="fadeInUp" data-animation-delay="600">
@@ -523,7 +561,7 @@
 						<!-- STATISTIC BLOCK #1 -->
 						<div class="col-md-4 animated" data-animation="fadeInUp" data-animation-delay="300">							
 							<div class="statistic-block text-center">							
-								<div class="statistic-number white-color txt-700">519</div>
+								<div class="statistic-number white-color txt-700">1020</div>
 								<h5 class="h5-sm white-color">Khách hàng đã sử dụng</h5>							
 								<!-- <p class="p-sm lightgrey-color">Viverra sem magna egestas</p> -->
 							</div>								
@@ -531,7 +569,7 @@
 						<!-- STATISTIC BLOCK #2 -->
 						<div class="col-md-4 animated" data-animation="fadeInUp" data-animation-delay="400">									
 							<div class="statistic-block text-center">								
-								<div class="statistic-number white-color txt-700">519</div>
+								<div class="statistic-number white-color txt-700">1020</div>
 								<h5 class="h5-sm white-color">Khách hàng hài lòng</h5>	
 								<!-- <p class="p-sm lightgrey-color">Donec enim ipsum porta justo</p> -->
 							</div>							
@@ -539,7 +577,7 @@
 						<!-- STATISTIC BLOCK #3 -->
 						<div class="col-md-4 animated" data-animation="fadeInUp" data-animation-delay="500">							
 							<div class="statistic-block text-center">								
-								<div class="statistic-number white-color txt-700">869</div>
+								<div class="statistic-number white-color txt-700">1200</div>
 								<h5 class="h5-sm white-color">Khách hàng đăng ký</h5>	
 								<!-- <p class="p-sm lightgrey-color">Velna iaculis odio auctor</p> -->
 							</div>						
@@ -561,11 +599,6 @@
 
 							<!-- Title 	-->	
 							<h2 class="h2-xs animated" data-animation="fadeInUp" data-animation-delay="400">Một số hình ảnh về sản phẩm</h2>	
-
-							<!-- Text -->
-							<p>Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis libero tempus, 
-							   tempor posuere ligula varius impedit enim tempor sapien
-							</p>
 										
 						</div>  	
 					</div>	 <!-- END SECTION TITLE -->	
@@ -576,7 +609,7 @@
             <div class="col-md-6 col-xs-10 mb-5 animated text-center" data-animation="fadeInRight" data-animation-delay="400">
               <img src="/images/example_1.png" width=90%>
             </div>
-            <div class="col-md-6 col-xs-10 mb-5 animated text-center data-animation="fadeInLeft" data-animation-delay="400">
+            <div class="col-md-6 col-xs-10 mb-5 animated text-center" data-animation="fadeInLeft" data-animation-delay="400">
               <img src="/images/example_2.png" width=90%>
             </div>						
 					</div>		<!-- END PORTFOLIO IMAGES HOLDER -->
@@ -747,7 +780,7 @@
 						<div class="col-md-8 col-lg-6 offset-md-2 offset-lg-0">
 							<form class="newsletter-form p-left-30">
 								<div class="input-group">
-									<input type="email" class="form-control" placeholder="Your email address" required id="s-email">								
+									<input type="email" class="form-control" placeholder="Nhập Email của bạn" required id="s-email">								
 									<span class="input-group-btn">
 										<button type="submit" class="btn"><i class="fas fa-arrow-right"></i></button>
 									</span>										
