@@ -268,7 +268,7 @@
         "shareYourScreenDisabled": "Chia sẻ màn hình đã tắt.",
         "shareYourScreenDisabledForGuest": "Khách không thể chia sẻ màn hình.",
         "startLiveStreaming": "Bắt đầu phát trực tuyến",
-        "startRecording": "Bắt đầu ghi âm",
+        "startRecording": "Bắt đầu ghi hình",
         "startRemoteControlErrorMessage": "Có lỗi khi thử khởi động phiên điều khiển từ xa",
         "stopLiveStreaming": "Dừng phát trực tuyến",
         "stopRecording": "Dừng ghi âm",
@@ -747,7 +747,7 @@
     },
     "videothumbnail": {
         "domute": "Tắt tiếng",
-        "domuteOthers": "Tắt tiếng tất cả những người khác",
+        "domuteOthers": "Tắt tiếng mọi người khác",
         "flip": "Lật",
         "kick": "Đẩy ra",
         "moderator": "Quản trị viên",
